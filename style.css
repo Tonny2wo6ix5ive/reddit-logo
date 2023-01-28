@@ -1,0 +1,99 @@
+*{
+    border: 1px solid transparent;
+}
+
+body{
+    overflow: hidden;
+    margin: 0;
+    background-color: orangered;
+}
+
+.head{
+    z-index: 1;
+    width: 40vw;
+    height: 60vh;
+    background-color: #ffffff;
+    margin: 180px auto;
+    border-radius: 50%;
+}
+
+.eye-cover{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 90px auto;
+}
+
+.eyes{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: orangered;
+}
+
+.mouth{
+    background-color: transparent;
+    border-bottom: 20px solid orangered;
+    border-top: 10px solid transparent;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-radius: 50%;
+    width: 290px;
+    height: 30vh;
+    position: absolute;
+    top: 45%;
+    left:38% ;
+}
+
+.ear-cover{
+    z-index: -1;
+    height: 50vh;
+    width: 45vw;
+    position: absolute;
+    top: 20%;
+    left: 27.3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ears{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.uplight-arial{
+    z-index: -1;
+    background-color: #ffffff;
+    border-top-left-radius: 10px;
+    position: absolute;
+    width: 1.5vw;
+    height: 50vh;
+    top: 4%;
+    left: 50%;
+    transform: rotate(15deg);
+}
+
+.bend-arial{
+    z-index: -1;
+    background-color: #ffffff;
+    position: absolute;
+    width: 1.5vw;
+    height: 20vh;
+    top: -0.7%;
+    left: 58%;
+    transform: rotate(105deg);
+}
+
+.ball{
+    background-color: #ffffff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top:6%;
+    left: 62%;
+}
